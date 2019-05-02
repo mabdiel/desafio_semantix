@@ -2,7 +2,7 @@
 ##Teste teórico
 
 Qual o objetivo do comando cache​ ​em Spark?
-R: Permite executar comandos de tranformação e ação em memória.
+R: Armazenar o RDD e evitar que ele seja processado novamente quando houver uma nova transformação ou ação no mesmo.
 
 O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em
 MapReduce. Por quê?
